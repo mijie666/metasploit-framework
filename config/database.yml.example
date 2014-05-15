@@ -7,9 +7,9 @@
 # essentially any Linux distro, not just Fedora)
 development: &pgsql
   adapter: postgresql
-  database: metasploit_framework_development
-  username: metasploit_framework_development
-  password: __________________________________
+  database: tempsys
+  username: mijie
+  password: gelora123
   host: localhost
   port: 5432
   pool: 5
@@ -28,6 +28,6 @@ production: &production
 # Note also, sqlite3 is totally unsupported by Metasploit now.
 test:
   <<: *pgsql
-  database: metasploit_framework_test
-  username: metasploit_framework_test
-  password: ___________________________
+  database: tempsys
+  username: mijie
+  password: gelora123
